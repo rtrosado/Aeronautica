@@ -1,5 +1,5 @@
 # aeronautica
-flight book management tool
+flight booking management tool
 
 using System;
 using System.IO;
@@ -9,15 +9,10 @@ namespace Aeronautica
 {
     
     class Program
-    
     {
-        
         enum LoginHeader { id, name, password, adress, telephone, permission }
-        
         enum FlightHeader { id, planename, origin, destiny, departure, arrival, cost }
-        
         enum PlaneHeader { id, name, configuration, businesscostpercentage}
-        
         enum TicketHeader { id, loginname, buydate, returnticket}
         
         static string[] seatline = new string[]
