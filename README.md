@@ -5,13 +5,21 @@ using System;
 using System.IO;
 
 namespace Aeronautica
+
 {
+    
     class Program
+    
     {
+        
         enum LoginHeader { id, name, password, adress, telephone, permission }
+        
         enum FlightHeader { id, planename, origin, destiny, departure, arrival, cost }
+        
         enum PlaneHeader { id, name, configuration, businesscostpercentage}
+        
         enum TicketHeader { id, loginname, buydate, returnticket}
+        
         static string[] seatline = new string[]
         { "(1) | |_|_|_| |_|_|_|_| |_|_|_| |", "(2) | |_|_|_|  |_|_|_|  |_|_|_| |",
           "(3) | |_|_|   |_|_|_|_|   |_|_| |", "(4) | |_|_|    |_|_|_|    |_|_| |",
